@@ -11,7 +11,7 @@ def main():
     # this is a number guessing game
 
     # input
-    random_number = random.randint(1, 9) # a number between 1 and 9
+    random_number = random.randint(1, 9)  # a number between 1 and 9
     print("Random Number Guessing Game.")
     user_number = int(input("Enter a number between 0-9: "))
 
