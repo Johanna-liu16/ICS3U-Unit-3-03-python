@@ -19,7 +19,7 @@ def main():
     if user_number == random_number:
         print("YAY! You guessed the correct number!")
     else:
-        print("Try again.")
+        print("Random number was {0}. Try again.".format(random_number))
 
     # output
     print("\nDone.")
