@@ -16,6 +16,7 @@ def main():
     user_number = int(input("Enter a number between 0-9: "))
 
     # process
+
     if user_number == random_number:
         print("YAY! You guessed the correct number!")
     else:
